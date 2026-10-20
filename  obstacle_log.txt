@@ -1,0 +1,47 @@
+MINI LIBRARY MANAGEMENT SYSTEM
+OBSTACLE LOG
+
+1. Managing Book Information
+Challenge:
+Storing multiple books and their details.
+
+Solution:
+Used a list of dictionaries to store book IDs,
+titles, authors, availability, and borrower details.
+
+2. Preventing Duplicate Borrowing
+Challenge:
+Preventing users from borrowing books that are
+already checked out.
+
+Solution:
+Added conditions to check book availability
+before processing borrowing requests.
+
+3. Tracking Due Dates
+Challenge:
+Identifying books that have passed their due dates.
+
+Solution:
+Used Python's datetime module to calculate
+due dates and identify overdue books.
+
+4. Saving Borrowing Records
+Challenge:
+Keeping records after the program closes.
+
+Solution:
+Used text files to save book details and
+borrowing history.
+
+5. Handling Invalid Input
+Challenge:
+Handling invalid book IDs and menu choices.
+
+Solution:
+Added input validation and error messages.
+
+Conclusion:
+This project helped me practise Python lists,
+dictionaries, functions, conditional statements,
+loops, date calculations, and file handling.
